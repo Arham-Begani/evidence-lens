@@ -1,0 +1,2 @@
+# Preserve the exact bytes used by evidence hashes and reproducible HTML builds.
+* -text

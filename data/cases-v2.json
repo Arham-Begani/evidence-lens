@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "title": "Repeated evidence and additional facts",
+  "prepared_date": "2026-11-05",
+  "status": "preexisting_preparation",
+  "annotation_policy": "Draft single-author labels. Require independent source review before scientific evaluation.",
+  "families": [
+    {
+      "id": "jumbledpath",
+      "source_family": "jumbledpath_report_family",
+      "split": "development",
+      "actor": "Salt Typhoon",
+      "subject": "JumbledPath capabilities",
+      "source": {
+        "title": "JumbledPath",
+        "publisher": "MITRE ATT&CK",
+        "url": "https://attack.mitre.org/software/S1206/"
+      },
+      "derivative": {
+        "title": "Researcher-composed companion card referencing JumbledPath",
+        "publisher": "Study preparation; not an external publication",
+        "url": "https://attack.mitre.org/software/S1206/"
+      },
+      "a": "JumbledPath supports capturing network packets from remote devices.",
+      "a_repeat": "The cited account describes remote packet collection by JumbledPath.",
+      "b": "The captured packet data can be compressed and encrypted.",
+      "locators": {
+        "a": "Software description; Network Sniffing",
+        "b": "Archive Collected Data; Data Encrypted"
+      },
+      "annotation_status": "draft",
+      "reviewers": [],
+      "notes": "Secondary knowledge-base entry; traces both capabilities to Cisco Talos, Salt Typhoon analysis, February 20, 2025. Revision 2 adds fixed attribution context; labels remain author-prepared and require independent review.",
+      "context": {
+        "text": "MITRE ATT&CK reports use of JumbledPath by Salt Typhoon.",
+        "source": {
+          "title": "JumbledPath",
+          "publisher": "MITRE ATT&CK",
+          "url": "https://attack.mitre.org/software/S1206/"
+        },
+        "locator": "Software overview and Groups That Use This Software"
+      }
+    },
+    {
+      "id": "volt_typhoon",
+      "source_family": "volt_typhoon_report_family",
+      "split": "development",
+      "actor": "Volt Typhoon",
+      "subject": "Scope and discovery behavior",
+      "source": {
+        "title": "Volt Typhoon targets US critical infrastructure",
+        "publisher": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
+      },
+      "derivative": {
+        "title": "Researcher-composed companion card referencing Volt Typhoon targets US critical infrastructure",
+        "publisher": "Study preparation; not an external publication",
+        "url": "https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
+      },
+      "a": "Microsoft reported Volt Typhoon targeting critical infrastructure organizations in the United States.",
+      "a_repeat": "The same Microsoft reporting describes US critical infrastructure as a target.",
+      "b": "In a small number of cases, Microsoft observed commands checking whether the compromised environment was virtualized.",
+      "locators": {
+        "a": "Opening overview",
+        "b": "Discovery section"
+      },
+      "annotation_status": "draft",
+      "reviewers": [],
+      "notes": "Preserve the small-number-of-cases qualifier; do not infer behavior in every intrusion. Revision 2 adds fixed attribution context; labels remain author-prepared and require independent review.",
+      "context": {
+        "text": "Microsoft attributes the activity discussed in this report to the cluster it calls Volt Typhoon.",
+        "source": {
+          "title": "Volt Typhoon targets US critical infrastructure",
+          "publisher": "Microsoft",
+          "url": "https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/"
+        },
+        "locator": "Opening overview"
+      }
+    },
+    {
+      "id": "unc3886",
+      "source_family": "unc3886_report_family",
+      "split": "development",
+      "actor": "UNC3886",
+      "subject": "Observed activity and persistence tooling",
+      "source": {
+        "title": "Uncovering UNC3886 espionage operations",
+        "publisher": "Mandiant / Google Cloud",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/uncovering-unc3886-espionage-operations"
+      },
+      "derivative": {
+        "title": "Researcher-composed companion card referencing Uncovering UNC3886 espionage operations",
+        "publisher": "Study preparation; not an external publication",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/uncovering-unc3886-espionage-operations"
+      },
+      "a": "Mandiant reported UNC3886 exploitation of CVE-2023-34048 dating back to late 2021.",
+      "a_repeat": "The report dates the cluster's exploitation of that vulnerability to late 2021.",
+      "b": "Mandiant also observed use of REPTILE and MEDUSA rootkits in UNC3886 activity.",
+      "locators": {
+        "a": "Overview; prior investigation discussion",
+        "b": "Persistence with rootkits"
+      },
+      "annotation_status": "draft",
+      "reviewers": [],
+      "notes": "Historical defensive summary only; no exploitation instructions. Revision 2 adds fixed attribution context; labels remain author-prepared and require independent review.",
+      "context": {
+        "text": "Mandiant discusses the supplied observations as activity of the cluster UNC3886.",
+        "source": {
+          "title": "Uncovering UNC3886 espionage operations",
+          "publisher": "Mandiant / Google Cloud",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/uncovering-unc3886-espionage-operations"
+        },
+        "locator": "Opening overview"
+      }
+    },
+    {
+      "id": "sunburst",
+      "source_family": "sunburst_report_family",
+      "split": "evaluation_candidate",
+      "actor": "APT29 (previously UNC2452)",
+      "subject": "SUNBURST reporting",
+      "source": {
+        "title": "Highly evasive attacker leverages SolarWinds supply chain",
+        "publisher": "Mandiant / Google Cloud",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor"
+      },
+      "derivative": {
+        "title": "Researcher-composed companion card referencing Highly evasive attacker leverages SolarWinds supply chain",
+        "publisher": "Study preparation; not an external publication",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor"
+      },
+      "a": "The SUNBURST backdoor could remain dormant for up to two weeks before retrieving commands.",
+      "a_repeat": "The same account describes an initial dormant period lasting as long as two weeks.",
+      "b": "Its traffic imitated the Orion Improvement Program protocol.",
+      "locators": {
+        "a": "SUNBURST Backdoor overview",
+        "b": "SUNBURST Backdoor overview"
+      },
+      "annotation_status": "draft",
+      "reviewers": [],
+      "notes": "Original December 2020 report; updated attribution merges UNC2452 into APT29. MITRE S0559 cites the report. Revision 2 adds fixed attribution context; labels remain author-prepared and require independent review.",
+      "context": {
+        "text": "The source update identifies UNC2452 as a cluster subsequently merged into APT29; the report associates SUNBURST with that activity.",
+        "source": {
+          "title": "Highly evasive attacker leverages SolarWinds supply chain",
+          "publisher": "Mandiant / Google Cloud",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor"
+        },
+        "locator": "Attribution update and SUNBURST overview"
+      }
+    },
+    {
+      "id": "cyclops_blink",
+      "source_family": "cyclops_blink_report_family",
+      "split": "evaluation_candidate",
+      "actor": "Sandworm",
+      "subject": "Analyzed Cyclops Blink samples",
+      "source": {
+        "title": "Cyclops Blink Malware Analysis Report",
+        "publisher": "UK NCSC",
+        "url": "https://www.ncsc.gov.uk/files/Cyclops-Blink-Malware-Analysis-Report.pdf"
+      },
+      "derivative": {
+        "title": "Researcher-composed companion card referencing Cyclops Blink Malware Analysis Report",
+        "publisher": "Study preparation; not an external publication",
+        "url": "https://www.ncsc.gov.uk/files/Cyclops-Blink-Malware-Analysis-Report.pdf"
+      },
+      "a": "The analyzed Cyclops Blink malware could retain persistence through a legitimate firmware update.",
+      "a_repeat": "The report says a legitimate firmware update would not necessarily remove the analyzed malware.",
+      "b": "The analyzed samples included modules for extracting device information.",
+      "locators": {
+        "a": "Executive summary, PDF printed page 1",
+        "b": "Executive summary, PDF printed page 1"
+      },
+      "annotation_status": "draft",
+      "reviewers": [],
+      "notes": "Scope is the analyzed WatchGuard samples, not every variant or device. MITRE S0687 provides public attribution. Revision 2 adds fixed attribution context; labels remain author-prepared and require independent review.",
+      "context": {
+        "text": "MITRE ATT&CK associates Cyclops Blink with use by Sandworm Team.",
+        "source": {
+          "url": "https://attack.mitre.org/software/S0687/",
+          "title": "Cyclops Blink, Software S0687",
+          "publisher": "MITRE ATT&CK"
+        },
+        "locator": "Software overview and Groups That Use This Software"
+      }
+    },
+    {
+      "id": "applejeus",
+      "source_family": "applejeus_report_family",
+      "split": "evaluation_candidate",
+      "actor": "Lazarus Group",
+      "subject": "AppleJeus advisory scope",
+      "source": {
+        "title": "Lazarus Group Targeting Cryptocurrency Organisations with AppleJeus Malware",
+        "publisher": "Cyber Security Agency of Singapore",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2021-010/"
+      },
+      "derivative": {
+        "title": "Researcher-composed companion card referencing Lazarus Group Targeting Cryptocurrency Organisations with AppleJeus Malware",
+        "publisher": "Study preparation; not an external publication",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2021-010/"
+      },
+      "a": "The advisory describes AppleJeus distributed through seemingly legitimate cryptocurrency trading applications modified to include malware.",
+      "a_repeat": "The same advisory says malicious modifications were placed in apparently legitimate cryptocurrency trading software.",
+      "b": "As of the February 2021 advisory, seven versions of AppleJeus were known.",
+      "locators": {
+        "a": "Advisory opening paragraphs",
+        "b": "Paragraph describing seven versions"
+      },
+      "annotation_status": "draft",
+      "reviewers": [],
+      "notes": "Official secondary advisory explicitly references the joint US advisory. Original CISA full text was not accessible during this check. Seven is time-scoped. Revision 2 adds fixed attribution context; labels remain author-prepared and require independent review.",
+      "context": {
+        "text": "The Singapore government advisory attributes the AppleJeus activity it discusses to Lazarus Group.",
+        "source": {
+          "title": "Lazarus Group Targeting Cryptocurrency Organisations with AppleJeus Malware",
+          "publisher": "Cyber Security Agency of Singapore",
+          "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2021-010/"
+        },
+        "locator": "Title and opening paragraphs"
+      }
+    },
+    {
+      "id": "zebrocy",
+      "source_family": "zebrocy_report_family",
+      "split": "evaluation_candidate",
+      "actor": "Sofacy / APT28",
+      "subject": "VB.NET Zebrocy variant",
+      "source": {
+        "title": "Dear Joohn: The Sofacy Group's Global Campaign",
+        "publisher": "Palo Alto Networks Unit 42",
+        "url": "https://unit42.paloaltonetworks.com/dear-joohn-sofacy-groups-global-campaign/"
+      },
+      "derivative": {
+        "title": "Researcher-composed companion card referencing Dear Joohn: The Sofacy Group's Global Campaign",
+        "publisher": "Study preparation; not an external publication",
+        "url": "https://unit42.paloaltonetworks.com/dear-joohn-sofacy-groups-global-campaign/"
+      },
+      "a": "The described VB.NET Zebrocy variant collected system information and a list of running processes.",
+      "a_repeat": "The same variant was reported to gather host details and running-process information.",
+      "b": "That VB.NET variant also sent a screenshot in BMP format with the collected data.",
+      "locators": {
+        "a": "VB.NET Zebrocy analysis",
+        "b": "VB.NET Zebrocy analysis"
+      },
+      "annotation_status": "draft",
+      "reviewers": [],
+      "notes": "Do not generalize this variant-specific observation to every Zebrocy sample. MITRE S0251 cites this report. Revision 2 adds fixed attribution context; labels remain author-prepared and require independent review.",
+      "context": {
+        "text": "The Unit 42 report places the described VB.NET Zebrocy variant within its discussion of Sofacy activity.",
+        "source": {
+          "title": "Dear Joohn: The Sofacy Group's Global Campaign",
+          "publisher": "Palo Alto Networks Unit 42",
+          "url": "https://unit42.paloaltonetworks.com/dear-joohn-sofacy-groups-global-campaign/"
+        },
+        "locator": "Overview and VB.NET Zebrocy section"
+      }
+    },
+    {
+      "id": "carbon",
+      "source_family": "carbon_report_family",
+      "split": "evaluation_candidate",
+      "actor": "Turla",
+      "subject": "Carbon architecture",
+      "source": {
+        "title": "Carbon paper: Peering into Turla's second stage backdoor",
+        "publisher": "ESET",
+        "url": "https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/"
+      },
+      "derivative": {
+        "title": "Researcher-composed companion card referencing Carbon paper: Peering into Turla's second stage backdoor",
+        "publisher": "Study preparation; not an external publication",
+        "url": "https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/"
+      },
+      "a": "ESET described Carbon as a second-stage backdoor used to steal sensitive information.",
+      "a_repeat": "The report characterizes Carbon as later-stage tooling for sensitive information theft.",
+      "b": "The described Carbon components had both 32-bit and 64-bit versions.",
+      "locators": {
+        "a": "Technical analysis overview",
+        "b": "Carbon files section"
+      },
+      "annotation_status": "draft",
+      "reviewers": [],
+      "notes": "Historical report dated March 30, 2017. MITRE S0335 links this analysis. Revision 2 adds fixed attribution context; labels remain author-prepared and require independent review.",
+      "context": {
+        "text": "ESET associates the Carbon backdoor discussed in this report with Turla.",
+        "source": {
+          "title": "Carbon paper: Peering into Turla's second stage backdoor",
+          "publisher": "ESET",
+          "url": "https://www.welivesecurity.com/2017/03/30/carbon-paper-peering-turlas-second-stage-backdoor/"
+        },
+        "locator": "Title and Technical analysis overview"
+      }
+    },
+    {
+      "id": "dusttrap",
+      "source_family": "dusttrap_report_family",
+      "split": "evaluation_candidate",
+      "actor": "APT41",
+      "subject": "DUSTTRAP collection capabilities",
+      "source": {
+        "title": "DUSTTRAP, Software S1159",
+        "publisher": "MITRE ATT&CK",
+        "url": "https://attack.mitre.org/software/S1159/"
+      },
+      "derivative": {
+        "title": "Researcher-composed companion card referencing DUSTTRAP, Software S1159",
+        "publisher": "Study preparation; not an external publication",
+        "url": "https://attack.mitre.org/software/S1159/"
+      },
+      "a": "MITRE ATT&CK reports that DUSTTRAP can enumerate local and domain user accounts.",
+      "a_repeat": "The entry describes DUSTTRAP account discovery for local users and domain accounts.",
+      "b": "The entry also reports that DUSTTRAP can capture screenshots.",
+      "locators": {
+        "a": "Techniques Used: Account Discovery, local and domain",
+        "b": "Techniques Used: Screen Capture"
+      },
+      "annotation_status": "draft",
+      "reviewers": [],
+      "notes": "Secondary entry cites Mandiant's July 18, 2024 APT41 report. The original article repeatedly timed out; these labels are verified only against MITRE, not its original telemetry. Revision 2 adds fixed attribution context; labels remain author-prepared and require independent review.",
+      "context": {
+        "text": "MITRE ATT&CK associates the DUSTTRAP framework with APT41 operations.",
+        "source": {
+          "title": "DUSTTRAP, Software S1159",
+          "publisher": "MITRE ATT&CK",
+          "url": "https://attack.mitre.org/software/S1159/"
+        },
+        "locator": "Software description and Groups That Use This Software"
+      }
+    }
+  ],
+  "derived_from_sha256": "1057892fc22ccc98c9bf39994a125772bffdd73782f8856f1c78ad17c600b51b",
+  "revision": 2
+}
