@@ -1,0 +1,348 @@
+{
+  "kind": "public_copy_engineering_verification",
+  "checked_utc_date": "2026-11-06",
+  "unit_tests": {
+    "passed": 82,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "reported_seconds": 37.34
+  },
+  "browser": {
+    "status": "passed",
+    "browser": "installed Microsoft Edge, headless",
+    "states": [
+      {
+        "width": 1440,
+        "method": "ordinary",
+        "condition": "base",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "ordinary",
+        "condition": "repeat",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "ordinary",
+        "condition": "new",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "ordinary",
+        "condition": "mixed",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "instruction",
+        "condition": "base",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "instruction",
+        "condition": "repeat",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "instruction",
+        "condition": "new",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "instruction",
+        "condition": "mixed",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "document",
+        "condition": "base",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "document",
+        "condition": "repeat",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "document",
+        "condition": "new",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "document",
+        "condition": "mixed",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "ledger",
+        "condition": "base",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "ledger",
+        "condition": "repeat",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "ledger",
+        "condition": "new",
+        "exact_text": true
+      },
+      {
+        "width": 1440,
+        "method": "ledger",
+        "condition": "mixed",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "ordinary",
+        "condition": "base",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "ordinary",
+        "condition": "repeat",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "ordinary",
+        "condition": "new",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "ordinary",
+        "condition": "mixed",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "instruction",
+        "condition": "base",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "instruction",
+        "condition": "repeat",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "instruction",
+        "condition": "new",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "instruction",
+        "condition": "mixed",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "document",
+        "condition": "base",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "document",
+        "condition": "repeat",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "document",
+        "condition": "new",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "document",
+        "condition": "mixed",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "ledger",
+        "condition": "base",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "ledger",
+        "condition": "repeat",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "ledger",
+        "condition": "new",
+        "exact_text": true
+      },
+      {
+        "width": 390,
+        "method": "ledger",
+        "condition": "mixed",
+        "exact_text": true
+      }
+    ],
+    "citation_checks": 130,
+    "layouts": [
+      {
+        "width": 1440,
+        "overflow": false,
+        "contrast": {
+          "checked": 140,
+          "failures": [],
+          "minimumObserved": 4.68
+        },
+        "modal_contrast": {
+          "checked": 153,
+          "failures": [],
+          "minimumObserved": 4.68
+        },
+        "unnamed_controls": [],
+        "reduced_motion": true,
+        "visible_focus": true
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "contrast": {
+          "checked": 139,
+          "failures": [],
+          "minimumObserved": 4.68
+        },
+        "modal_contrast": {
+          "checked": 152,
+          "failures": [],
+          "minimumObserved": 4.68
+        },
+        "unnamed_controls": [],
+        "reduced_motion": true,
+        "visible_focus": true
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "contrast": {
+          "checked": 119,
+          "failures": [],
+          "minimumObserved": 4.68
+        },
+        "modal_contrast": {
+          "checked": 132,
+          "failures": [],
+          "minimumObserved": 4.68
+        },
+        "unnamed_controls": [],
+        "reduced_motion": true,
+        "visible_focus": true
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "contrast": {
+          "checked": 121,
+          "failures": [],
+          "minimumObserved": 4.68
+        },
+        "modal_contrast": {
+          "checked": 134,
+          "failures": [],
+          "minimumObserved": 4.68
+        },
+        "unnamed_controls": [],
+        "reduced_motion": true,
+        "visible_focus": true
+      },
+      {
+        "width": 320,
+        "overflow": false,
+        "contrast": {
+          "checked": 118,
+          "failures": [],
+          "minimumObserved": 4.68
+        },
+        "modal_contrast": {
+          "checked": 131,
+          "failures": [],
+          "minimumObserved": 4.68
+        },
+        "unnamed_controls": [],
+        "reduced_motion": true,
+        "visible_focus": true
+      }
+    ],
+    "failure_states": {
+      "malformed": "passed",
+      "missing-citation": "passed",
+      "empty-answer": "passed",
+      "javascript-disabled": "static report link visible"
+    },
+    "external_requests": [],
+    "page_errors": [],
+    "html_sha256": "c0ddef305e12b5f9634d8c01942606a1c248d0e63a99b8a1d7f742797c3f1db1",
+    "accessibility_scope": "Automated contrast, names, reflow and keyboard checks; not full WCAG certification."
+  },
+  "integrity": {
+    "saved_responses": 16,
+    "final_claims": 35,
+    "raw_input_output_files": 32,
+    "blank_review_rows": 16,
+    "original_archives_unchanged": true,
+    "independent_human_review": false
+  },
+  "cli": {
+    "validate": "passed",
+    "export_tasks": 192,
+    "verify": "passed",
+    "fixture": "engineering_fixture_false_corroboration",
+    "report": "passed"
+  },
+  "new_model_calls": 0,
+  "screenshots": [
+    {
+      "path": "verification/desktop-entry.png",
+      "sha256": "af1fcc79e8fb7932a0ff88b36c531b59591c70634fdb2a7663a6e14bbb1d224d"
+    },
+    {
+      "path": "verification/tablet-full.png",
+      "sha256": "7786b1701f963bc3da144c8702e3de87e7221c0566471d53ad1ba655e496497a"
+    },
+    {
+      "path": "verification/mobile-reader.png",
+      "sha256": "8e1065e634275ee85a029ab5b787f10372960258d0734f0420baae04701cdb13"
+    }
+  ],
+  "omitted_receipt_fields": [
+    "machine paths",
+    "temporary loopback addresses",
+    "raw execution logs"
+  ],
+  "limitations": [
+    "Internal engineering checks only",
+    "No complete WCAG certification",
+    "No research performance claim",
+    "No new full motion suite for this export"
+  ]
+}
