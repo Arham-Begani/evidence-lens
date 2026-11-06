@@ -1,0 +1,25 @@
+{
+  "evidence_record": [
+    "d0:p0 | Stated source: MITRE ATT&CK, JumbledPath (S1206). Proposition: Salt Typhoon reportedly uses JumbledPath. Scope: actor–tool association; no specific operation or exercised feature is described.",
+    "d1:p1 + d2:p2 | Stated source: MITRE ATT&CK, S1206; d2:p2 explicitly restates it. Proposition: JumbledPath supports remote network-packet capture. Scope: tool capability. These share a reporting origin and do not establish independent observations.",
+    "d2:p3 | Stated upstream source: MITRE ATT&CK, S1206. Distinct proposition: captured packet data can be compressed and encrypted. Scope: capability, without evidence of actor-specific execution. The containing card is researcher-composed, not an external publication."
+  ],
+  "claims": [
+    {
+      "text": "Salt Typhoon is reported to use JumbledPath.",
+      "citations": ["d0:p0"],
+      "reporting_relationship": "Actor–tool association attributed to MITRE ATT&CK through the supplied paraphrase."
+    },
+    {
+      "text": "The reported tool association supports a qualified assessment that Salt Typhoon has access to remote network-packet capture capability; the cards do not demonstrate its exercise in a specific operation.",
+      "citations": ["d0:p0", "d1:p1", "d2:p2"],
+      "reporting_relationship": "Inference combining the actor–tool association with tool functionality. d2:p2 explicitly inherits the remote-capture proposition from the same MITRE entry."
+    },
+    {
+      "text": "JumbledPath-associated packet data can reportedly be compressed and encrypted, supporting a qualified inference of these capabilities being available through the actor’s reported tool use.",
+      "citations": ["d0:p0", "d2:p3"],
+      "reporting_relationship": "Inference linking actor use to a distinct capability attributed to MITRE by the researcher-composed card; no actor-specific execution is established."
+    }
+  ],
+  "limitations": "Only supplied researcher paraphrases were assessed. The common reporting origin does not establish independent observations. The cards do not establish operational frequency, scale, effectiveness, or actual use of every feature. Missing information does not show that an event never happened."
+}

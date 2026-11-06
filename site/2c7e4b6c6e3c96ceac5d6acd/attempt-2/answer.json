@@ -1,0 +1,20 @@
+{
+  "evidence_record": [
+    "d0:p0 attributes JumbledPath use to Salt Typhoon; d1:p1 describes remote packet capture. Both reference the same MITRE ATT&CK entry.",
+    "d2:p2 explicitly restates that entry and adds no independent reporting origin.",
+    "d2:p3 supplies no additional capability facts."
+  ],
+  "claims": [
+    {
+      "text": "MITRE ATT&CK reportedly attributes use of JumbledPath to Salt Typhoon.",
+      "citations": ["d0:p0"],
+      "reporting_relationship": "Researcher paraphrase of a MITRE ATT&CK attribution."
+    },
+    {
+      "text": "JumbledPath supports capturing network packets from remote devices. Combined with the reported tool use, this supports a limited assessment of Salt Typhoon's remote packet-capture capability, without establishing use in any particular operation.",
+      "citations": ["d0:p0", "d1:p1", "d2:p2"],
+      "reporting_relationship": "Attribution and capability descriptions reference one MITRE entry; d2:p2 is an explicit restatement, not independent corroboration."
+    }
+  ],
+  "limitations": "The supplied cards are incomplete researcher-authored paraphrases, not verified original reports. They do not establish specific targets, collection scale, operational success, or additional capabilities. The editorial scope note cannot support inferences about omitted content, and omissions do not establish that other events never occurred."
+}

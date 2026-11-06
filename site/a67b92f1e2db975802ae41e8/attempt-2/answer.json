@@ -1,0 +1,20 @@
+{
+  "evidence_record": [
+    "d0:p0 — Upstream: MITRE ATT&CK, JumbledPath. Proposition: Salt Typhoon reportedly uses JumbledPath. Scope: tool-use attribution; no specific operation or exercised feature is described.",
+    "d1:p1; d2:p2 — Upstream: MITRE ATT&CK, JumbledPath. Proposition: JumbledPath supports remote network-packet capture. d2:p2 explicitly restates this reporting and supplies no independent corroboration.",
+    "d2:p3 — Researcher editorial scope note; no additional upstream factual proposition supplied. Unprovided contents cannot support further conclusions."
+  ],
+  "claims": [
+    {
+      "text": "MITRE ATT&CK reportedly attributes use of JumbledPath to Salt Typhoon.",
+      "citations": ["d0:p0"],
+      "reporting_relationship": "Single attributed reporting origin, supplied through a researcher paraphrase."
+    },
+    {
+      "text": "The cards support a qualified inference that Salt Typhoon has a remote network-packet capture capability through JumbledPath. They do not establish that the actor exercised this feature in a particular operation.",
+      "citations": ["d0:p0", "d1:p1", "d2:p2"],
+      "reporting_relationship": "Inference combining actor–tool attribution with reported tool functionality. d2:p2 explicitly inherits the capability proposition from the same MITRE account; it is not independent confirmation."
+    }
+  ],
+  "limitations": "These researcher-authored paraphrases are incomplete and unverified here. They establish neither targets, operational scale, frequency, effectiveness, nor specific collection events. The editorial scope note supports no additional capability claim. Missing details do not establish that other capabilities or events never existed."
+}

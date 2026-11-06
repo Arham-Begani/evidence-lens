@@ -1,0 +1,25 @@
+{
+  "evidence_record": [
+    "d0:p0 and d1:p1 reference the same MITRE ATT&CK JumbledPath entry.",
+    "d2:p3 attributes an additional compression-and-encryption capability to that same entry; the researcher-composed card is not an independent reporting origin.",
+    "d2:p2 is an editorial scope note and supplies no actor observation."
+  ],
+  "claims": [
+    {
+      "text": "MITRE ATT&CK attributes use of JumbledPath to Salt Typhoon.",
+      "citations": ["d0:p0"],
+      "reporting_relationship": "Single attributed reporting origin: MITRE ATT&CK, represented through a researcher paraphrase."
+    },
+    {
+      "text": "JumbledPath supports remote-device network packet capture. Its attributed use supports a qualified inference that Salt Typhoon has access to this capability, without establishing a particular capture operation.",
+      "citations": ["d0:p0", "d1:p1"],
+      "reporting_relationship": "Actor-use attribution and tool capability come from the same referenced entry; their combination is an inference, not independent corroboration."
+    },
+    {
+      "text": "Captured packet data can be compressed and encrypted. This adds a capability associated with Salt Typhoon’s attributed tool, but does not demonstrate that the actor exercised it.",
+      "citations": ["d0:p0", "d2:p3"],
+      "reporting_relationship": "Additional source-attributed fact preserved from the researcher-composed card; it traces to the same MITRE entry."
+    }
+  ],
+  "limitations": "The evidence consists of selected researcher paraphrases, not complete reports or direct operational observations. It establishes neither deployment details nor demonstrated use of every tool capability. Omitted events or capabilities cannot be treated as having never occurred."
+}

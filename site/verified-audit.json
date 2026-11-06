@@ -1,0 +1,10 @@
+{
+  "kind": "public_content_integrity_audit",
+  "saved_responses": 16,
+  "claims": 35,
+  "original_private_run_status": "previously reverified against retained local event streams",
+  "independent_semantic_review": "pending",
+  "new_model_calls": 0,
+  "method_superiority_established": false,
+  "scope": "Checks in this copy validate published content hashes; raw process logs are excluded."
+}

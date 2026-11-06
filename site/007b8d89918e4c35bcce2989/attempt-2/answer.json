@@ -1,0 +1,26 @@
+{
+  "evidence_record": [
+    "d0:p0 — Upstream: MITRE ATT&CK, JumbledPath (S1206). Proposition: Salt Typhoon reportedly uses JumbledPath. Scope: actor–tool association; no specific operation described.",
+    "d1:p1 — Upstream: the same MITRE entry. Proposition: JumbledPath supports remote-device packet capture. Scope: tool capability; actor execution is not established.",
+    "d2:p3 — Explicit upstream: the same MITRE entry. Proposition: captured packet data can be compressed and encrypted. Scope: data-processing capability; researcher-composed restatement, not independent corroboration.",
+    "d2:p2 — Researcher editorial qualification: summaries are incomplete and this passage adds no actor observation."
+  ],
+  "claims": [
+    {
+      "text": "MITRE ATT&CK reportedly associates Salt Typhoon with use of JumbledPath.",
+      "citations": ["d0:p0"],
+      "reporting_relationship": "One attributed report conveyed through a researcher paraphrase."
+    },
+    {
+      "text": "That association supports a qualified assessment that Salt Typhoon has access to remote-device network packet capture through JumbledPath. The cards do not establish execution of this capability in a specific operation.",
+      "citations": ["d0:p0", "d1:p1"],
+      "reporting_relationship": "Inference combining distinct actor-use and tool-capability propositions from the same reporting origin; not independent observations."
+    },
+    {
+      "text": "JumbledPath's captured packet data can reportedly be compressed and encrypted, supporting a qualified inference of those capabilities through the actor's associated tool. Actual actor use of either function is not established.",
+      "citations": ["d0:p0", "d2:p3"],
+      "reporting_relationship": "Actor association combined with an explicitly inherited capability statement; the composed card supplies no independent corroboration."
+    }
+  ],
+  "limitations": "Assessment uses only the supplied, incomplete researcher paraphrases. They do not establish operational frequency, scale, success, targets, or use of every tool function. Missing details do not establish that events never occurred."
+}

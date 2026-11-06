@@ -1,0 +1,26 @@
+{
+  "evidence_record": [
+    "d0:p0 attributes JumbledPath use to Salt Typhoon.",
+    "d1:p1 describes remote-device packet capture as a JumbledPath capability.",
+    "d2:p3 describes compression and encryption of captured packet data and references the same MITRE page.",
+    "d2:p2 supplies scope context, not an actor observation."
+  ],
+  "claims": [
+    {
+      "text": "Salt Typhoon is reported to use JumbledPath.",
+      "citations": ["d0:p0"],
+      "reporting_relationship": "Explicit actor–tool attribution in a researcher paraphrase of MITRE ATT&CK."
+    },
+    {
+      "text": "The reported JumbledPath use supports assessing Salt Typhoon as having access to remote-device packet-capture capability; the cards do not establish a specific capture operation.",
+      "citations": ["d0:p0", "d1:p1"],
+      "reporting_relationship": "Capability inference combining actor–tool attribution with the tool's reported functionality."
+    },
+    {
+      "text": "The associated tool capability includes compression and encryption of captured packet data. Salt Typhoon's actual use of these functions is not established by the cards.",
+      "citations": ["d0:p0", "d2:p3"],
+      "reporting_relationship": "Tool-linked capability inference using a researcher-composed card referencing the same MITRE source; not independent corroboration."
+    }
+  ],
+  "limitations": "The evidence consists of selected researcher-authored paraphrases, not complete reports. It does not establish targets, operational scale, success, frequency, or observed use of each function. The editorial note adds no actor evidence, and omissions do not establish that an event never occurred."
+}

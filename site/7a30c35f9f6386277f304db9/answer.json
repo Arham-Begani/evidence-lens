@@ -1,0 +1,25 @@
+{
+  "evidence_record": [
+    "Retained d0: supplies the reported Salt Typhoon–JumbledPath association.",
+    "Retained d1: adds remote-device packet-capture capability.",
+    "Retained d2: p3 adds compression and encryption capabilities; p2 adds no actor observation. The composed card references the same MITRE entry, not an independent publication."
+  ],
+  "claims": [
+    {
+      "text": "The supplied paraphrase attributes Salt Typhoon’s use of JumbledPath to MITRE ATT&CK.",
+      "citations": ["d0:p0"],
+      "reporting_relationship": "Researcher paraphrase of MITRE reporting; the underlying publication was not independently inspected."
+    },
+    {
+      "text": "JumbledPath supports capturing network packets from remote devices. Its reported use by Salt Typhoon supports an inference of access to this capability, but does not establish a specific capture operation.",
+      "citations": ["d0:p0", "d1:p1"],
+      "reporting_relationship": "Capability inference combining actor–tool attribution and tool functionality from paraphrases of the same MITRE entry."
+    },
+    {
+      "text": "Captured packet data can be compressed and encrypted. This supports a tool-associated capability assessment for Salt Typhoon, without establishing that the actor exercised either function.",
+      "citations": ["d0:p0", "d2:p3"],
+      "reporting_relationship": "Inference from reported tool use and a researcher-composed card attributing the additional functionality to the same MITRE entry; not independent corroboration."
+    }
+  ],
+  "limitations": "These incomplete, researcher-authored cards establish neither operational frequency, scale, targets, success, nor demonstrated use of individual functions. They provide no independent corroboration. Omission from the cards does not establish that an event or capability was absent."
+}

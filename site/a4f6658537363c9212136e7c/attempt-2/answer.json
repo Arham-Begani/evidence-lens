@@ -1,0 +1,15 @@
+{
+  "evidence_record": [
+    "d0:p0 — Stated source: MITRE ATT&CK, JumbledPath entry; no further upstream source supplied. Proposition: Salt Typhoon reportedly uses JumbledPath. Scope: tool-use attribution; no specific operation or exercised feature identified.",
+    "d1:p1 — Stated source: the same MITRE ATT&CK entry; no further upstream source supplied. Distinct proposition: JumbledPath supports packet capture from remote devices. Scope: software functionality, not an observation of Salt Typhoon performing that action.",
+    "d2:p2–p3 — Source: researcher-composed editorial notes referencing the entry. These establish that the supplied summaries are incomplete; they provide no additional actor observation or basis to infer omitted content."
+  ],
+  "claims": [
+    {
+      "text": "The cards support a qualified assessment that Salt Typhoon can potentially capture network packets from remote devices through JumbledPath: MITRE reportedly attributes use of the tool to the actor, and the tool supports that function. They do not establish that Salt Typhoon exercised this particular capability.",
+      "citations": ["d0:p0", "d1:p1"],
+      "reporting_relationship": "Two distinct propositions attributed to the same MITRE entry underpin this inference. They are not independent corroboration or separate observations of packet capture."
+    }
+  ],
+  "limitations": "The evidence consists of selected researcher paraphrases, not complete reports. It supplies no operational examples, targets, scale, effectiveness, or underlying attribution evidence. The editorial notes add no capability evidence. Omitted events or capabilities cannot be inferred, and their absence from these cards does not establish that they never occurred."
+}

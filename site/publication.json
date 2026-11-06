@@ -1,0 +1,183 @@
+{
+  "kind": "explicit_publication_view",
+  "prepared_at_utc": "2026-11-06T19:53:41.303606+00:00",
+  "preexisting_preparation": true,
+  "saved_development_responses": 16,
+  "final_claims": 35,
+  "independent_human_review": "pending",
+  "method_superiority_established": false,
+  "new_inference": 0,
+  "source_payload_sha256": "f3cae52d16b0150a87ee4867dfa5154d9c610c8d3985593ec7b73bcaee18d883",
+  "preserved_original_files": [
+    {
+      "path": "site/7ca19374d18b7a0990b1aaad/answer.json",
+      "sha256": "f582797b676299a646567b3903459fe2ab747be38c754f9a96fbc2486f8d5eee"
+    },
+    {
+      "path": "site/7ca19374d18b7a0990b1aaad/prompt.txt",
+      "sha256": "8c32aca67813b9bcf424b618b7eda75845881b5ef81434c6abc8876c31c62db1"
+    },
+    {
+      "path": "site/6126d2c04d1c27cee6ecffb5/attempt-2/answer.json",
+      "sha256": "aa0ca0c212c99ed95099876ddfbeacbc5d79e164cfc7a15bf503f0081d8888f4"
+    },
+    {
+      "path": "site/6126d2c04d1c27cee6ecffb5/attempt-2/prompt.txt",
+      "sha256": "49c8707fba714c5e54fa45677999b8a4597440372262b341beea4cf4bb2518f5"
+    },
+    {
+      "path": "site/4840b2d3cfde18ab5cfcc9f5/answer.json",
+      "sha256": "3d2a3cb4ba9c086ceebd32931e5f31a83148314651f34f6c86ab11161a7408c1"
+    },
+    {
+      "path": "site/4840b2d3cfde18ab5cfcc9f5/prompt.txt",
+      "sha256": "ef6b0f26fdb2dfe3b4690b8ea94e9341cc077de7efa9b545dfc0b195c213f958"
+    },
+    {
+      "path": "site/fc273e06a0b5fef4ea219ae5/attempt-2/answer.json",
+      "sha256": "abde54e0b5473b49e6ac49a64f7901101060f1abeb54f13dab1b402440e05c88"
+    },
+    {
+      "path": "site/fc273e06a0b5fef4ea219ae5/attempt-2/prompt.txt",
+      "sha256": "3a2793a888e133112b9cf604db8751f046538d27aa8bcc5587f8d8d617c57941"
+    },
+    {
+      "path": "site/bc19aa490b9df08066ba72c8/attempt-2/answer.json",
+      "sha256": "6e9726bcd7c6e546e843ecb6f06416feb906e353ed40d1896feae81aa9509356"
+    },
+    {
+      "path": "site/bc19aa490b9df08066ba72c8/attempt-2/prompt.txt",
+      "sha256": "6e786613ac11bd84be046c7fc5fed3c5e56e7f215d69d6a6863c6dcfcc1a0850"
+    },
+    {
+      "path": "site/2c7e4b6c6e3c96ceac5d6acd/attempt-2/answer.json",
+      "sha256": "40392b2e704423697667fb4c8727b480c5801df8b012487712a4ea55a6dbb840"
+    },
+    {
+      "path": "site/2c7e4b6c6e3c96ceac5d6acd/attempt-2/prompt.txt",
+      "sha256": "8b1a05154ae337a9d448fb97799976c2eb5594738550a82d40a3f8b108bd9026"
+    },
+    {
+      "path": "site/97e8f357a40c0f8289f0cf47/attempt-2/answer.json",
+      "sha256": "78ac8a9d3d8d52f8d44eef13a9071584d4294c71ac29de007dc357507a05a2c9"
+    },
+    {
+      "path": "site/97e8f357a40c0f8289f0cf47/attempt-2/prompt.txt",
+      "sha256": "7a5aca7608788c5b5cdd42c877f52a78551a31fd02506c2fe0d41bb455090253"
+    },
+    {
+      "path": "site/1e8881dd77a5da978cd1128b/attempt-2/answer.json",
+      "sha256": "247fee29cf256215d22de0959375a97b8d3253dbec7897186691c57c16cef350"
+    },
+    {
+      "path": "site/1e8881dd77a5da978cd1128b/attempt-2/prompt.txt",
+      "sha256": "375c7b93e95622bd06f676535f9c045525489a2d7eb95124f1cab1f79c1c8858"
+    },
+    {
+      "path": "site/fb2c69749497f686aaadcf89/answer.json",
+      "sha256": "86e29ce0a431008c082c9ce8f474ae48c0b01a9cb0fd8887987f3981f83d21ae"
+    },
+    {
+      "path": "site/fb2c69749497f686aaadcf89/prompt.txt",
+      "sha256": "cb938d8e9cf7b79c9f84fa9b72c9c91838d1c1689ebc7dfcec4546c417760bb9"
+    },
+    {
+      "path": "site/541eb084bbcdfd3add301df8/attempt-2/answer.json",
+      "sha256": "017a864177732b46537c0eb4828fdba41aaad0b6c844ebf3343645cfe5d9e148"
+    },
+    {
+      "path": "site/541eb084bbcdfd3add301df8/attempt-2/prompt.txt",
+      "sha256": "6f27022772be74ff26517a7a6d67c502bdbca38d1d59e2e2332007168d92c75e"
+    },
+    {
+      "path": "site/7a30c35f9f6386277f304db9/answer.json",
+      "sha256": "f4a10b8d89f340951633e12ef278eac1f5e2c81f3d6b34892dbc338727dc9e9f"
+    },
+    {
+      "path": "site/7a30c35f9f6386277f304db9/prompt.txt",
+      "sha256": "6102a2f7ebafb617878f4ecc165180b65c346df9b665244ad531096b7100e90d"
+    },
+    {
+      "path": "site/f9ff2cb51ea635473bc40fcf/attempt-2/answer.json",
+      "sha256": "1ee9cef64c6b294db891b8b7650795d899969b4cae966b65d5ae528497047245"
+    },
+    {
+      "path": "site/f9ff2cb51ea635473bc40fcf/attempt-2/prompt.txt",
+      "sha256": "9b6c693bdc5bbc43ddea96828a513202f1909f0c04fe32e6f061e66d129a5bf9"
+    },
+    {
+      "path": "site/a4f6658537363c9212136e7c/attempt-2/answer.json",
+      "sha256": "7b71df2e3951bbf9d51e4e6ab214536f4e43acab32713e334844eca28c232601"
+    },
+    {
+      "path": "site/a4f6658537363c9212136e7c/attempt-2/prompt.txt",
+      "sha256": "27a7118297650bec968b4afc1bf8ac67301014640d07ca4f67720f94e2c6e704"
+    },
+    {
+      "path": "site/a67b92f1e2db975802ae41e8/attempt-2/answer.json",
+      "sha256": "ec53d0f1b2d0bd7e829ea91fafa95ae07785c1aab5cf734bf686f7a6d3c2bb75"
+    },
+    {
+      "path": "site/a67b92f1e2db975802ae41e8/attempt-2/prompt.txt",
+      "sha256": "e4b0c46ec5af311b848610206d91650de599dd4bd7b47f1eeaf3b93e6cd842e0"
+    },
+    {
+      "path": "site/007b8d89918e4c35bcce2989/attempt-2/answer.json",
+      "sha256": "8bcef832c4dca03db9229344400cdb6d5d19fb8c47888c5361207ebb8da785c8"
+    },
+    {
+      "path": "site/007b8d89918e4c35bcce2989/attempt-2/prompt.txt",
+      "sha256": "fe4d32df994198d45d0fec288ad05321216a1e21c3b31d0bffa4c4b538d07917"
+    },
+    {
+      "path": "site/7e866ee5c612bd69309506b7/answer.json",
+      "sha256": "178287f2c98bcfec14de6a959d5f3fae7d46a8ac450d7426f5675ef33deeff39"
+    },
+    {
+      "path": "site/7e866ee5c612bd69309506b7/prompt.txt",
+      "sha256": "8ed8106dcf4a17ce8af446c51d952b85ed5f85b45529948adadedf10ea45221b"
+    }
+  ],
+  "record_fields_retained": [
+    "task_id",
+    "method",
+    "condition",
+    "kind",
+    "requested_model",
+    "cli_version",
+    "reasoning_effort",
+    "answer_sha256",
+    "actual_prompt_sha256",
+    "original_task_sha256",
+    "relative_directory",
+    "response",
+    "packet",
+    "final_words"
+  ],
+  "record_fields_excluded": [
+    "citation_issues",
+    "completed_at_utc",
+    "recovered_transport_events",
+    "returncode",
+    "reverified",
+    "schema_and_word_limit_valid",
+    "started_at_utc",
+    "status",
+    "token_usage",
+    "tool_events"
+  ],
+  "excluded_material": [
+    "raw CLI event streams and stderr",
+    "local machine/process/recovery diagnostics",
+    "submission identity and author email",
+    "conversation transcripts",
+    "historical archives and images of the local desktop"
+  ],
+  "limits": [
+    "This is a public content view, not the original process-validation record.",
+    "The response objects and packets are unchanged; prompt and answer files are byte-identical.",
+    "CLI wrapper context and an immutable server-side model digest are unavailable.",
+    "One author-known case and one order do not establish a method ranking."
+  ],
+  "blank_review_sha256": "3f7c039f4f74456d1c37b524ef2b81d81736394964a35886ee103e0cdb0f2582"
+}

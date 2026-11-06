@@ -1,0 +1,20 @@
+{
+  "evidence_record": [
+    "Retained d0: supplies the actor–tool association.",
+    "Retained d1: supplies a distinct fact about the tool’s remote packet-capture capability.",
+    "Excluded d2: p2 explicitly restates d1’s reporting; p3 supplies no additional capability fact."
+  ],
+  "claims": [
+    {
+      "text": "The supplied evidence attributes use of JumbledPath to Salt Typhoon.",
+      "citations": ["d0:p0"],
+      "reporting_relationship": "Researcher paraphrase of MITRE ATT&CK attribution."
+    },
+    {
+      "text": "JumbledPath supports capturing network packets from remote devices. Together with the attributed use, this supports a qualified inference that Salt Typhoon has a remote packet-capture capability through this tool.",
+      "citations": ["d0:p0", "d1:p1"],
+      "reporting_relationship": "Inference combining actor–tool attribution and reported tool functionality from the same cited source; not independent corroboration or evidence of a specific capture operation."
+    }
+  ],
+  "limitations": "The cards are paraphrases, not complete reports. They do not establish that Salt Typhoon exercised this feature in any particular operation, or specify targets, prerequisites, scale, reliability, or success. Unprovided reporting cannot be inferred, and omissions do not establish that other capabilities or events never existed."
+}
